@@ -9,12 +9,12 @@ flarum-markdown:
 
     # These translations are used by the composer (emoji autocompletion function).
     composer:
-      bold_tooltip: Fet stil
-      code_tooltip: Infoga kod
-      header_tooltip: Rubrik
-      image_tooltip: Bild
-      italic_tooltip: Kursiv stil
-      link_tooltip: Länk
-      ordered_list_tooltip: Sorterad lista
-      quote_tooltip: Citera
-      unordered_list_tooltip: Osorterad lista
+      bold_tooltip: Pridėti paryškintą tekstą
+      code_tooltip: Įterpti kodą
+      header_tooltip: Pridėti antraštės tekstą
+      image_tooltip: Pridėti nuotrauką
+      italic_tooltip: Pridėti kursyvinį tekstą
+      link_tooltip: Pridėti nuorodą
+      ordered_list_tooltip: Pridėti sunumeruotą sąrašą
+      quote_tooltip: Įterpti citatą
+      unordered_list_tooltip: Pridėti sąrašą su ženkleliais

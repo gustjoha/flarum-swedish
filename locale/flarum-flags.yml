@@ -9,56 +9,56 @@ flarum-flags:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      flag_posts_label: Flagga inlägg
-      view_flags_label: Visa flaggade inlägg
+      flag_posts_label: Netinkamas pranešimas
+      view_flags_label: Peržiūrėti netinkamus pranešimus
 
     # These translations are used in the Flags Settings modal dialog.
     settings:
-      flag_own_posts_label: Tillåt användare att flagga egna inlägg
-      guidelines_url_label: URL till forumets riktlinjer
-      title: Inställningar för flaggor
+      flag_own_posts_label: Leisti vartotojams pranešti apie savo netinkamus pranešimus
+      guidelines_url_label: Bendruomenės gairių nuoroda
+      title: Netinkamų pranešimų nustatymai
 
   # Translations in this namespace are used by the forum user interface.
   forum:
 
     # These translations are used by the Flag Post modal dialog.
     flag_post:
-      confirmation_message: Tack för att du flaggade detta inlägg. Våra moderatorer kommer att kolla upp detta.
+      confirmation_message: Dėkojame, kad pranešėte apie šį įrašą. Moderatoriai kuo greičiau tai peržiūrės.
       dismiss_button: => core.ref.okay
-      reason_details_placeholder: Additional details (optional)
-      reason_inappropriate_label: Olämpligt
-      reason_inappropriate_text: "Detta inlägg är stötande, kränkande eller bryter mot <a>forumets riktlinjer</a>."
-      reason_missing_message: Please provide some details for our moderators.
-      reason_off_topic_label: "Irrelevant"
-      reason_off_topic_text: Det här inlägget är inte relevant för den här diskussionen och bör flyttas någon annanstans.
-      reason_other_label: Annat
-      reason_spam_label: Spam
-      reason_spam_text: Det här inlägget är reklam.
+      reason_details_placeholder: Papildoma informacija (neprivaloma)
+      reason_inappropriate_label: Netinkamas
+      reason_inappropriate_text: "Šis įrašas yra piktybinis, įžeidžiantis arba pažeidžia mūsų <a>bendruomenės gaires</a>."
+      reason_missing_message: Prašome pateikti šiek tiek informacijos mūsų moderatoriams.
+      reason_off_topic_label: 'Pranešimas "ne į temą"'
+      reason_off_topic_text: Šis įrašas nėra aktualus dabartinei diskusijai ir turėtų būti perkeltas kitur.
+      reason_other_label: Kita (nurodykite)
+      reason_spam_label: Šlamštas
+      reason_spam_text: Šis įrašas yra reklaminio tipo.
       submit_button: => flarum-flags.ref.flag_post
       title: => flarum-flags.ref.flag_post
 
     # These translations are used by the Flagged Posts dropdown, a.k.a. "the flag".
     flagged_posts:
-      empty_text: Inga flaggor
-      item_text: "{username} i <em>{discussion}</em>"
+      empty_text: Nėra skundų
+      item_text: "{username} temoje <em>{discussion}</em>"
       title: => flarum-flags.ref.flagged_posts
       tooltip: => flarum-flags.ref.flagged_posts
 
     # These translations are used by the frame displayed around flagged posts.
     post:
-      dismiss_flag_button: Avfärda flagga
-      flagged_by_text: "{username} flaggade"
-      flagged_by_with_reason_text: "{username} flaggade som {reason}"
+      dismiss_flag_button: Atmesti skundą
+      flagged_by_text: "Narys {username} pranešė apie tai"
+      flagged_by_with_reason_text: "Narys {username} pranešė apie tai, dėl {reason}"
 
     # These translations are used by the post control buttons.
     post_controls:
-      flag_button: Flagga
+      flag_button: Pranešti kaip netinkamą
 
   ##
-  # REUSED TRANSLATIONS - These keys should not be used directly in code!
+  # REUSED KEYS - The following keys are used in several locations and should not be used directly in code.
   ##
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    flag_post: Flagga inlägg
-    flagged_posts: Flaggade inlägg
+    flag_post: Pažymėti pranešimą kaip netinkamą
+    flagged_posts: Pranešimai pažymėti kaip netinkami

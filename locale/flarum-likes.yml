@@ -9,7 +9,7 @@ flarum-likes:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      like_posts_label: Gilla inlägg
+      like_posts_label: Like posts
 
   # Translations in this namespace are used by the forum user interface.
   forum:
@@ -17,21 +17,21 @@ flarum-likes:
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
       others_text: => core.ref.some_others
-      post_liked_text: "{username} gillade ditt inlägg"  # Can be pluralized to agree with the number of users!
+      post_liked_text: "{username} patiko tavo pranešimas"
 
     # These translations are displayed beneath individual posts.
     post:
-      like_link: Gilla
-      liked_by_self_text: "{users} gillar detta."  # Can be pluralized to agree with the number of users!
-      liked_by_text: "{users} gillar detta.|{users} gillar detta."
+      like_link: Patinka
+      liked_by_self_text: "{users} mėgsta šį pranešimą."               # Can be pluralized to agree with the number of users!
+      liked_by_text: "{users} mėgstą šį pranešimą.|{users} mėgstą šį pranešimą."  # Can be pluralized to agree with the number of users!
       others_link: => core.ref.some_others
-      unlike_link: Ogilla
+      unlike_link: Nepatinka
       you_text: => core.ref.you
 
     # These translations are used by the Users Who Like This modal dialog.
     post_likes:
-      title: Användare som gillar detta
+      title: Nariai kuriems patinka šis pranešimas
 
     # These translations are used in the Settings page.
     settings:
-      notify_post_liked_label: Någon gillar ett av mina inlägg
+      notify_post_liked_label: Kažkam patinka mano pranešimas

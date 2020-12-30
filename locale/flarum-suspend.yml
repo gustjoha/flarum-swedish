@@ -9,29 +9,29 @@ flarum-suspend:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      suspend_users_label: Avstängda användare
+      suspend_users_label: Blokuoti narius
 
   # Translations in this namespace are used by the forum user interface.
   forum:
     # These translations are used in the suspension notifications
     notifications:
-      user_suspended_text: "{username} stängde av dig under {timeReadable}"
-      user_unsuspended_text: "{username} upphävde avstängningen"
+      user_suspended_text: "{username} užblokavo jus už {timeReadable}"
+      user_unsuspended_text: "{username} atblokavo jus"
 
     # These translations are used in the Suspend User modal dialog (admin function).
     suspend_user:
-      indefinitely_label: Stäng av på obestämd tid
-      limited_time_label: Stäng av under begränsad tid...
-      limited_time_days_text: " dagar"
-      not_suspended_label: Inte avstängd
-      status_heading: Avstängningens status
+      indefinitely_label: Užblokuotas neribotam laikui
+      limited_time_days_text: " dienų"
+      limited_time_label: Laikinai užblokavo...
+      not_suspended_label: Neužblokuotas
+      status_heading: Blokavimo statusas
       submit_button: => core.ref.save_changes
-      title: "Stäng av {username}"
+      title: "Blokuoti {username}"
 
     # These translations are displayed as tooltips for user badges.
     user_badge:
-      suspended_tooltip: Avstängd
+      suspended_tooltip: Užblokuotas
 
     # These translations are found on the user profile page (admin function).
     user_controls:
-      suspend_button: Stäng av
+      suspend_button: Blokuoti

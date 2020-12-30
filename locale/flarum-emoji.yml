@@ -9,5 +9,5 @@ flarum-emoji:
 
     # These translations are used by the composer (emoji autocompletion function).
     composer:
-      emoji_tooltip: Infoga emoji
-      type_to_search_text: Börja skriva för att söka efter emoji
+      emoji_tooltip: Įterpti jaustuką
+      type_to_search_text: Įveskite jei norite ieškoti jaustukų

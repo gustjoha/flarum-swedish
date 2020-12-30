@@ -1,4 +1,4 @@
-flarum-sticky:
+flarum-lock:
 
   ##
   # UNIQUE KEYS - The following keys are used in only one location each.
@@ -9,29 +9,29 @@ flarum-sticky:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      sticky_discussions_label: Prisegtos temos
+      lock_discussions_label: Lås tråd
 
   # Translations in this namespace are used by the forum user interface.
   forum:
 
     # These translations are displayed as tooltips for discussion badges.
     badge:
-      sticky_tooltip: => flarum-sticky.ref.sticky
+      locked_tooltip: Låst
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
-      sticky_button: => flarum-sticky.ref.sticky
-      unsticky_button: Atsegti
+      lock_button: Lås
+      unlock_button: Lås upp
+
+    # These translations are used by the Notifications dropdown, a.k.a. "the bell".
+    notifications:
+      discussion_locked_text: "{username} låste"
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      discussion_stickied_text: "{username} prisegė šią temą."
-      discussion_unstickied_text: "{username} atsegė šią temą."
+      discussion_locked_text: "{username} låste tråden."
+      discussion_unlocked_text: "{username} låste upp tråden."
 
-  ##
-  # REUSED TRANSLATIONS - These keys should not be used directly in code!
-  ##
-
-  # Translations in this namespace are referenced by two or more unique keys.
-  ref:
-    sticky: Prisegti
+    # These translations are used in the Settings page.
+    settings:
+      notify_discussion_locked_label: Någon låste en tråd som jag startade

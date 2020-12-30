@@ -1,4 +1,4 @@
-flarum-lock:
+flarum-sticky:
 
   ##
   # UNIQUE KEYS - The following keys are used in only one location each.
@@ -9,29 +9,29 @@ flarum-lock:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      lock_discussions_label: Lock discussions
+      sticky_discussions_label: Klistrade trådar
 
   # Translations in this namespace are used by the forum user interface.
   forum:
 
     # These translations are displayed as tooltips for discussion badges.
     badge:
-      locked_tooltip: Užrakinta
+      sticky_tooltip: => flarum-sticky.ref.sticky
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
-      lock_button: Rakinti
-      unlock_button: Atrakinti
-
-    # These translations are used by the Notifications dropdown, a.k.a. "the bell".
-    notifications:
-      discussion_locked_text: "{username} užrakino"
+      sticky_button: => flarum-sticky.ref.sticky
+      unsticky_button: Avklistra
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      discussion_locked_text: "{username} užrakino šią temą."
-      discussion_unlocked_text: "{username} atrakino šią temą."
+      discussion_stickied_text: "{username} klistrade tråden."
+      discussion_unstickied_text: "{username} avklistrade tråden."
 
-    # These translations are used in the Settings page.
-    settings:
-      notify_discussion_locked_label: Kažkas užrakino temą kurią pradėjau
+  ##
+  # REUSED TRANSLATIONS - These keys should not be used directly in code!
+  ##
+
+  # Translations in this namespace are referenced by two or more unique keys.
+  ref:
+    sticky: Klistra

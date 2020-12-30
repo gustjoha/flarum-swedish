@@ -9,17 +9,11 @@ dayjs.locale({
   monthsShort: 'jan_feb_mar_apr_maj_jun_jul_aug_sep_okt_nov_dec'.split('_'),
   weekStart: 1,
   yearStart: 4,
-  format: {
-    LT: 'HH:mm',
-    LTS: 'HH:mm:ss',
-    L: 'YYYY-MM-DD',
-    LL: 'YYYY [m.] MMMM D [d.]',
-    LLL: 'D MMMM YYYY [kl.] HH:mm',,
-    LLLL: 'dddd D MMMM YYYY [kl.] HH:mm',
-    L: 'YYYY-MM-DD',,
-    LL: 'D MMMM YYYY',
-    lll: 'D MMM YYYY HH:mm',
-    llll: 'ddd D MMM YYYY HH:mm'
+
+  ordinal: (n) => {
+    const b = n % 10
+    const o = (b === 1) || (b === 2) ? 'a' : 'e'
+    return `[${n}${o}]`
   },
   formats: {
     LT: 'HH:mm',
@@ -45,8 +39,7 @@ dayjs.locale({
     MM: '%d månader',
     y: 'ett år',
     yy: '%d år'
-
-  },
-
+  }
 }, null, false);
-	
+
+

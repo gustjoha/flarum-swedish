@@ -1,5 +1,5 @@
 {
-    "name": "taddis/flarum-swedish",
+    "name": "gustjoha/flarum-swedish-test",
     "type": "flarum-extension",
     "description": "Swedish language extension for flarum.",
     "keywords": ["extension", "flarum", "language", "locale", "swedish", "translation"],

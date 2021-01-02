@@ -1,7 +1,7 @@
 ## flarum-swedish
 A Swedish language extension for [Flarum](http://flarum.org/).
 
-This extension is based on the excellent work by @Taddis. Thank you for carrying the flag in translating Flarum, I´ll do my best to pick it up.
+This extension is based on the excellent work by [@Taddis](https://github.com/taddis). Thank you for carrying the flag in translating Flarum, I´ll do my best to pick it up.
 
 This extension only contains translations for [flarum/flarum](https://github.com/flarum/flarum).
 

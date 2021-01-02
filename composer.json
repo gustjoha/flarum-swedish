@@ -1,18 +1,18 @@
 {
-    "name": "gustjoha/flarum-swedish-test",
+    "name": "gustjoha/flarum-swedish",
     "type": "flarum-extension",
     "description": "Swedish language extension for flarum.",
     "keywords": ["extension", "flarum", "language", "locale", "swedish", "translation"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Tobias Karlsson",
-            "email": "taddis@gmail.com"
+            "name": "Gustav Johansson",
+            "email": "gust.joha@gmail.com"
         }
     ],
     "support": {
-        "issues": "https://github.com/taddis/flarum-swedish/issues",
-        "source": "https://github.com/taddis/flarum-swedish"
+        "issues": "https://github.com/gustjoha/flarum-swedish",
+        "source": "https://github.com/gustjoha/flarum-swedish"
     },
     "require": {
         "flarum/core": "^0.1.0-beta.15"
